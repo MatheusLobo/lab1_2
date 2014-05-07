@@ -1,0 +1,2 @@
+pelo seguinte fato quando você faz num=10 você esta atribuindo o valor 10 a sua variável num,
+para fazer uma comparação seria if(num==10)

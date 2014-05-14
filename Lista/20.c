@@ -8,7 +8,7 @@ int main(){
     scanf("%f", &tamanho);
     printf("Qual a velocidade do link em Mbps");
     scanf("%f",&velocidade);
-    conta=tamanho/velocidade;
+    conta=(tamanho*velocidade)/60;
     printf("O tempo em minutos é = %f", conta);
     scanf("%f",&velocidade);
     return 0;

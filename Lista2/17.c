@@ -2,32 +2,23 @@
 void ifs(){
      	float h, pso, imc;
      if (imc <= 18.5)
-	{
-		printf("Abaixo do peso");
+	{printf("Abaixo do peso");
 	}	
 	else if (imc >= 18.5 && imc <=24.9)
-	{
-		printf("Saudavel");
+	{printf("Saudavel");
 	}
     	else if (imc >= 25 && imc <= 29.9)
-	{
-		printf("Peso em excesso");
+	{printf("Peso em excesso");
 	}
     	else if (imc >= 30 && imc <= 34.9)
-	{
-		printf("Obesidade grau 1");
+	{printf("Obesidade grau 1");
 	}
 	else if (imc >= 35 && imc <= 39.9)
-	{
-		printf("Obesidade grau 2");
+	{printf("Obesidade grau 2");
 	}
 	else if (imc >= 40)
-	{
-	     printf("Obesidade grau 3");
+	{printf("Obesidade grau 3");
 	}
-
-
-     
      }
 int main ()
 {
